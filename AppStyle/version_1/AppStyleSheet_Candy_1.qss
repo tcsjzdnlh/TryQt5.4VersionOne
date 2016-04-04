@@ -1,0 +1,42 @@
+/* R1 */
+QDialog {
+    background-image: url(:/images/qssimages/background.png);
+}
+
+/* R2 */
+QLabel {
+    font: 9pt;
+    color: rgb(0, 0, 127);
+}
+
+/* R3 */
+QComboBox:editable,
+QLineEdit,
+QListView {
+    color: rgb(127, 0, 63);
+    background-color: rgb(255, 255, 241);
+    selection-color: white;
+    selection-background-color: rgb(191, 31, 127);
+    border: 2px groove gray;
+    border-radius: 10px;
+    padding: 2px 4px;
+}
+
+/* R4 */
+QListView {
+    padding: 5px 4px;
+}
+
+/* R5 */
+QComboBox:!editable,
+QPushButton {
+    color: white;
+    font: bold 10pt;
+    border-image: url(:/images/qssimages/button.png) 16;
+    border-width: 16px;
+    padding: -16px 0px;
+    min-height: 32px;
+    min-width: 60px;
+}
+
+

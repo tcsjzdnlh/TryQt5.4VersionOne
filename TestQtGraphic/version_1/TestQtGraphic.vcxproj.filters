@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{7f3b6bd6-b317-43a9-a8c9-b31ac3f2824d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{128d5277-e9e1-429d-8dcf-d960e228d866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{ed813591-3c92-4862-9800-fce766d1a7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{9d6e4e20-f684-4306-ac1c-7dc187e38e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{7a2c3de5-4525-4d8b-9615-f6ec6a046ba6}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{78c741ad-3555-4294-a347-6dc7e66e34c1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Test\TryPainter">
+      <UniqueIdentifier>{c75a7a47-4c7a-42ec-b907-9e20060773fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\CoordinateSystem">
+      <UniqueIdentifier>{1a085104-58a7-4677-8dce-603b154b4fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Transform">
+      <UniqueIdentifier>{49ae95e0-1146-4983-bd11-3d5c66819e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\OvenTimer">
+      <UniqueIdentifier>{62b0246d-037f-4d49-962c-47986b1a9171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\ImageAndPixelBlending">
+      <UniqueIdentifier>{510f7723-f647-42e3-b6f4-74d2a46c164d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\GraphicsView">
+      <UniqueIdentifier>{1f1569e3-94e3-4e6e-9794-1b463f6ba5f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug\qrc_TestQtGraphic.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\qrc_TestQtGraphic.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TryPainter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TryPainter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TryPainter.cpp">
+      <Filter>Test\TryPainter</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCoordinateSystem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCoordinateSystem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CCoordinateSystem.cpp">
+      <Filter>Test\CoordinateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Testor.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Test\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Transform.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Transform.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OvenTimer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OvenTimer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="OvenTimer.cpp">
+      <Filter>Test\OvenTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageAndPixelBlending.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageAndPixelBlending.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAndPixelBlending.cpp">
+      <Filter>Test\ImageAndPixelBlending</Filter>
+    </ClCompile>
+    <ClCompile Include="Link.cpp">
+      <Filter>Test\GraphicsView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DiagramMainWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramMainWnd.cpp">
+      <Filter>Test\GraphicsView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DiagramMainWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsNode.cpp">
+      <Filter>Test\GraphicsView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="TestQtGraphic.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\window.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWnd.h">
+      <Filter>Parts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Testor.h">
+      <Filter>Parts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TryPainter.h">
+      <Filter>Test\TryPainter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCoordinateSystem.h">
+      <Filter>Test\CoordinateSystem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Transform.h">
+      <Filter>Test\Transform</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OvenTimer.h">
+      <Filter>Test\OvenTimer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImageAndPixelBlending.h">
+      <Filter>Test\ImageAndPixelBlending</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DiagramMainWnd.h">
+      <Filter>Test\GraphicsView</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestQtGraphic.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DailySchedule.txt">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Link.h">
+      <Filter>Test\GraphicsView</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsNode.h">
+      <Filter>Test\GraphicsView</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

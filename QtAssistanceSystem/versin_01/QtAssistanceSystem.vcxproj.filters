@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{3638c646-b1c6-4e2c-b4aa-804fa134ed1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{807c6f26-0b5c-4843-a90b-60d971b30f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{30c96ed6-4581-4740-acca-d33c308aca35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{8d91f672-935b-43b5-952e-3cff10eeb7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{68440ec4-e2fd-4559-91fb-76585bca5fb9}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{75198781-a2b1-45bc-82fa-703538873274}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Test\MAC_Q_ENUMS">
+      <UniqueIdentifier>{de448f47-fe72-4bcb-a824-c95b7fdb9822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\EnumParam">
+      <UniqueIdentifier>{ea05133f-3fc4-43bb-b8e9-7c646d917399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\MAC_Q_FLAGS">
+      <UniqueIdentifier>{719a7a14-580a-45e3-ba02-9b2379c32c84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Testor.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Book.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Book.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Test\MAC_Q_ENUMS</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EnumParam.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EnumParam.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumParam.cpp">
+      <Filter>Test\EnumParam</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MacFlags.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MacFlags.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MacFlags.cpp">
+      <Filter>Test\MAC_Q_FLAGS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MainWnd.h">
+      <Filter>Parts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Book.h">
+      <Filter>Test\MAC_Q_ENUMS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EnumParam.h">
+      <Filter>Test\EnumParam</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MacFlags.h">
+      <Filter>Test\MAC_Q_FLAGS</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Testor.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{0b3c1582-c837-49bd-8fff-922ef0b3575b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{140731a8-867c-48d0-8d6b-13e83fc0f400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{dabf100c-931b-4063-be24-8db4c758dfe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{a5da73f6-a60c-45f9-ae44-3828690367ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\Logger">
+      <UniqueIdentifier>{15f4a8c4-1ed3-4409-810e-0218d2bbd64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{f4a140d5-9947-4696-9501-d7adccc94502}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{c337c171-838e-4fbb-98d2-1105878cb7b5}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Parts\StyleWidgets">
+      <UniqueIdentifier>{13c5c501-f98f-41d2-973a-d69d27d53dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\StyleWidgets\StyleSlider">
+      <UniqueIdentifier>{2bb3122b-a0db-42d0-8730-6e93da3c085a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Parts\ImplStyle">
+      <UniqueIdentifier>{f7ccd384-ba9d-4ad9-a0d8-3b82e92fe4ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\ImplStyle\XfsStyle">
+      <UniqueIdentifier>{23144b3b-f459-4c98-9a31-9674ac3baa4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\ImplStyle\UseStyleWidget">
+      <UniqueIdentifier>{75283483-db53-4a42-901f-aaae716295fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Parts\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Testor.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WidgetsStyle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WidgetsStyle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetsStyle.cpp">
+      <Filter>Parts\StyleWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="arthurstyle.cpp">
+      <Filter>Parts\StyleWidgets\StyleSlider</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_shared.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XfsStyle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_XfsStyle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="XfsStyle.cpp">
+      <Filter>Parts\ImplStyle\XfsStyle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MainWnd.h">
+      <Filter>Parts\Logger</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WidgetsStyle.h">
+      <Filter>Parts\StyleWidgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shared.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="XfsStyle.h">
+      <Filter>Parts\ImplStyle\XfsStyle</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arthurstyle.h">
+      <Filter>Parts\StyleWidgets\StyleSlider</Filter>
+    </ClInclude>
+    <ClInclude Include="Testor.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\button_normal_cap_left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_normal_cap_right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_normal_stretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_pressed_cap_left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_pressed_cap_right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\button_pressed_stretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\radiobutton-on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\radiobutton_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\radiobutton_off.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\slider_bar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\slider_thumb_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\groupframe_topleft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\groupframe_topright.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\groupframe_bottom_left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\groupframe_bottom_right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\groupframe_top_stretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\groupframe_bottom_stretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\groupframe_left_stretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\groupframe_right_stretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\frame_topleft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\frame_topright.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\frame_bottomleft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\frame_bottomright.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\frame_left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\frame_top.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\frame_right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\frame_bottom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\title_cap_left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\title_cap_right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\title_stretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\line_dash_dot.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\line_dotted.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\line_dashed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\line_solid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\line_dash_dot_dot.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

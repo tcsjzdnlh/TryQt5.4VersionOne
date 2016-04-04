@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FindDialog.cpp" />
+    <ClCompile Include="GoToCellDlg.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainWnd.cpp" />
+    <ClCompile Include="SortDialog.cpp" />
+    <ClCompile Include="SpreadSheet.cpp" />
+    <ClCompile Include="moc_FindDialog.cpp" />
+    <ClCompile Include="moc_SortDialog.cpp" />
+    <ClCompile Include="moc_GoToCellDlg.cpp" />
+    <ClCompile Include="moc_MainWnd.cpp" />
+    <ClCompile Include="moc_SpreadSheet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpreadSheet.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FindDialog.h" />
+    <CustomBuild Include="GoToCellDialog.ui" />
+    <CustomBuild Include="GoToCellDlg.h" />
+    <CustomBuild Include="MainWnd.h" />
+    <CustomBuild Include="Makefile" />
+    <CustomBuild Include="Makefile.Debug" />
+    <CustomBuild Include="Makefile.Release" />
+    <CustomBuild Include="SortDialog.h" />
+    <CustomBuild Include="SortDialog.ui" />
+    <CustomBuild Include="SpreadSheet.aps" />
+    <CustomBuild Include="SpreadSheet.h" />
+    <CustomBuild Include="SpreadSheet.qrc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+/* -----------------  ----------------- */
+/*
+QDialog
+{
+	width: 700px;
+	height: 700px;
+}
+*/
+
+
+/* ----------------- subcontorl : indicator  ----------------- */
+/*
+QCheckBox#acceptCheckBox::indicator
+{
+	background-color: red;
+}
+*/
+
+/* ----------------- subcontorl : drop-down  ----------------- */
+/*
+QComboBox::drop-down
+{
+	background-color: green;
+}
+*/
+
+/* ----------------- subcontorl : down-arrow  ----------------- */
+/*
+QComboBox::down-arrow
+{
+	background-color: green;
+}
+*/
+/* ----------------- subcontorl : up-arrow  ----------------- */
+QComboBox::up-arrow
+{
+	background-color: green;
+}

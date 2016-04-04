@@ -1,0 +1,45 @@
+/* -----------------  ----------------- */
+/* ----------------- single state ----------------- */
+/*
+QCheckBox::indicator:hover
+{
+	background-color: red;
+}
+*/
+
+/* ----------------- two state  ----------------- */
+/*
+QCheckBox::indicator:checked:hover
+{
+	background-color: red;
+}
+*/
+
+/* ----------------- state: focus   ----------------- */
+/*
+QComboBox::drop-down:focus
+{
+	background-color: red;
+}
+*/
+
+/* ----------------- state: open   ----------------- */
+/*
+QDialog:open
+{
+	background-color: yellow;
+}
+*/
+
+/* ----------------- state: disabled   ----------------- */
+/*
+QComboBox:disabled
+{
+	background-color: yellow;
+}
+*/
+/* ----------------- state: pressed   ----------------- */
+QPushButton:pressed
+{
+	background-color: red;
+}

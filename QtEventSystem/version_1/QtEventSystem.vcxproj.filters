@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{6fdc7225-27e8-4393-95ee-ea6bf5129fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{1927312c-e754-4f43-ab25-45e215a02d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{2394cc79-5b63-4ceb-b81e-8d26bba33ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{3f99ec62-9eb6-4297-b641-e60ac53010d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{ddfac866-7638-4b17-b41d-8d2a9e44f711}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{7ea81fc8-3aa8-4dd9-a99c-1aa0366c20d9}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Test\TimerTicker">
+      <UniqueIdentifier>{86589472-ce54-4bb7-be47-266ba17ce7ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\EventFilter">
+      <UniqueIdentifier>{b98b4899-f1b5-4f39-8e45-658855144212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\DragEvent">
+      <UniqueIdentifier>{6252a19d-eb22-4e5f-815a-de602015f7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\DragEvent\DragFile">
+      <UniqueIdentifier>{585ec7a6-bb7e-4ae0-99b4-2701d16ecd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\DragEvent\DragItem">
+      <UniqueIdentifier>{19a53e7a-cbee-4fab-a992-f7ddcc72c326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug\qrc_QtEventSystem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\qrc_QtEventSystem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="Testor.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="events_file.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="HugeEnumToString.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BindEventWithQShortcutQAction.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="BindEventWithQShortcutQAction.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BindEventWithQShortcutQAction.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TimerTicker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TimerTicker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerTicker.cpp">
+      <Filter>Test\TimerTicker</Filter>
+    </ClCompile>
+    <ClCompile Include="EventFilterApp.cpp">
+      <Filter>Test\EventFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EventReceiver.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EventFilterApp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EventReceiver.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EventReceiver.cpp">
+      <Filter>Test\EventFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EventFilterApp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DragFile.cpp">
+      <Filter>Test\DragEvent\DragFile</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DragItemDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProjectListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectListWidget.cpp">
+      <Filter>Test\DragEvent\DragItem</Filter>
+    </ClCompile>
+    <ClCompile Include="DragItemDialog.cpp">
+      <Filter>Test\DragEvent\DragItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DragItemDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProjectListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="QtEventSystem.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\window.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWnd.h">
+      <Filter>Parts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BindEventWithQShortcutQAction.h">
+      <Filter>Test</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TimerTicker.h">
+      <Filter>Test\TimerTicker</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EventReceiver.h">
+      <Filter>Test\EventFilter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EventFilterApp.h">
+      <Filter>Test\EventFilter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="projectdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DragItemDialog.h">
+      <Filter>Test\DragEvent\DragItem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ProjectListWidget.h">
+      <Filter>Test\DragEvent\DragItem</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QtEventSystem.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>CodePath</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Testor.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="HugeEnumToString.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="DragFile.h">
+      <Filter>Test\DragEvent\DragFile</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_projectdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

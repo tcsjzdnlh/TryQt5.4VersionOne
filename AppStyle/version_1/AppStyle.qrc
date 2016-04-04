@@ -1,0 +1,12 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+	<qresource prefix="/">
+		<file alias="window.ico">images/window.ico</file>
+		<file alias="crystal.png">images/splashes/crystal.png</file>	
+		<file>images/qssimages/background.png</file>
+		<file>images/qssimages/button.png</file>
+		<file>images/qssimages/button-hover.png</file>
+		<file>images/qssimages/button-pressed.png</file>
+		<file>images/qssimages/down-arrow.png</file>		
+	</qresource>
+</RCC>

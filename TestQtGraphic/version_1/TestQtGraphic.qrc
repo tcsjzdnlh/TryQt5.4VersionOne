@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/window">
+        <file alias="window.ico">images/window.ico</file>
+        <file alias="crystal.png">images/splashes/crystal.png</file>
+    </qresource>
+</RCC>

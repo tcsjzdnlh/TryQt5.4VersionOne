@@ -1,0 +1,21 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+	<qresource prefix="/window">
+		<file alias="window.ico">images/window.ico</file>
+	</qresource>
+	<qresource prefix="/actions">
+		<file alias="new.ico">images/actions/new.ico</file>
+		<file alias="open.ico">images/actions/open.ico</file>
+		<file alias="save.ico">images/actions/save.ico</file>
+		<file alias="exit.ico">images/actions/exit.ico</file>
+		<file alias="save_as.ico">images/actions/save_as.ico</file>
+		<file alias="cut.ico">images/actions/cut.ico</file>
+		<file alias="copy.ico">images/actions/copy.ico</file>
+		<file alias="paste.ico">images/actions/paste.ico</file>
+		<file alias="del.ico">images/actions/delete.ico</file>
+		<file alias="find.ico">images/actions/find.ico</file>
+	</qresource>
+	<qresource prefix="/splash">
+		<file alias="crystal.png">images/splashes/crystal.png</file>
+	</qresource>
+</RCC>

@@ -1,0 +1,84 @@
+/* -----------------  ----------------- */
+
+/* ----------------- universal selector ----------------- */
+
+/*
+
+*
+{
+	background-color: red;
+}
+
+*/
+
+
+
+/* -----------------some class and derivered sub class----------------------- */
+/*
+QDialog
+{
+	background-image: url(:/crystal.png);
+}
+*/
+
+/* -----------------just this class not include derivered sub class ----------------- */
+/*
+.CFirstStyleSheet
+{
+	background-image: url(:/crystal.png);
+}
+*/
+
+
+
+/* ----------------- just the object with specified property of some type class  ----------------- */
+/*
+QPushButton[text="hello"]
+{
+	color: red;
+	background-color: darkCyan;
+}
+
+*/
+
+/* ----------------- object with specified object name ----------------- */
+/*
+QPushButton#m_pBtn
+{
+	color: red;
+	background-color: darkCyan;
+}
+*/
+
+/* ----------------- derect child  ----------------- */
+/*
+QDialog > QPushButton
+{
+	color: yellow;
+	background-color: darkCyan;
+}
+*/
+
+/* ----------------- descendand child( include chidren, grendchidren)  ----------------- */
+/*
+QDialog QPushButton
+{
+	color: green;
+	background-color: yellow;
+}
+*/
+
+/*
+CFirstStyleSheet > QPushButton
+{
+	color: green;
+	background-color: yellow;
+}
+*/
+
+
+/* ----------------- for dynamic set property  ----------------- */
+*[mandatoryField=true]
+{
+	background-color : red;
+}

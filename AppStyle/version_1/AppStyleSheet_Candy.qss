@@ -1,0 +1,122 @@
+/* -----------------  ----------------- */
+
+/* ----------------- QDialog ----------------- */
+QDialog
+{
+	background-image: url(images/qssimages/background.png);
+}
+
+/*
+QDialog
+{
+
+	border-image: url(images/qssimages/button.png) 16;
+	border-width: 16px;
+}
+*/
+
+/* ----------------- QLabel ----------------- */
+QLabel
+{
+	font: 20px;
+	/*color: rgb(10, 1, 220);*/
+	/* color: red; */
+	/* color: rgb(100, 201, 220); */
+	
+	color: rgb( 0, 0, 127 );
+}
+
+
+/* ----------------- QLineEdit, QListView ----------------- */
+QLineEdit, QListView
+{
+	color: rgb(127, 0, 63);
+	background-color: rgb(255, 255, 241);
+		
+	selection-color: while;
+	selection-background-color: rgb(191, 31, 127);
+	
+	border: 10px groove gray;
+	border-radius: 12px;
+
+	padding: 10px 30px;   /* vertical horizontal */
+}
+QListView
+{
+	padding: 5px 4px;
+}
+
+/* ----------------- QPushButton ----------------- */
+QPushButton
+{
+	color: white;	
+	font: bold 10pt;
+
+	min-height: 32px;
+	min-width: 60px;
+
+	padding: -16px 0px;
+
+	border-image: url(images/qssimages/button.png) 16;
+	border-width: 16px;
+}
+QPushButton:hover
+{
+	border-image: url(images/qssimages/button-hover.png) 16;
+}
+QPushButton:pressed
+{
+	color: lightgray;
+	border-image: url(images/qssimages/button-pressed.png) 16;
+
+	padding-top: -15px;
+	padding-bottom: -17px;
+}
+
+/* ----------------- QComboBox:editable ----------------- */
+QComboBox:editable, QLineEdit, QListView
+{
+	color: rgb( 63, 0, 127);
+	background-color: rgb( 255, 255, 241);
+
+	selection-color: white;
+	selection-background-color: rgb(191, 31, 127);
+
+	border: 2px groove gray;
+	border-radius: 10px;
+
+	padding: 2px 6px;
+}
+QComboBox:!editable, QPushButton
+{
+	color: white;
+	font: bold 10pt;
+
+	min-height: 32px;
+	min-width: 60px;
+
+	border-image: url(images/qssimages/button.png) 16;
+	boder-width: 16px;
+	/* padding: -16px 0px; */
+
+}
+QComboBox:!editable:hover,
+QComboBox::drop-down:editable:hover,
+QPushButton:hover
+{
+	border-image: url(images/qssimages/button-hover.png) 16;
+}
+
+QComboBox:!editable:on,
+QPushButton:pressed
+{
+	color:lightgray;
+	border-image: url(images/qssimages/button-pressed.png) 16;
+	padding-top: -15px;
+	padding-bottom: -17px;
+}
+
+QComboBox::down-arrow
+{
+	image: url(images/down-arrow.png);
+}

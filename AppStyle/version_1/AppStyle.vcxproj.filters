@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{3ad43de8-2afc-465a-92a3-664cb8d47ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{8d01adfd-60f5-44f4-8d59-37c33869b151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{9bd64f88-8eb1-4cda-a3cd-d2237ab493b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{9f14f8c3-adea-4361-be64-b259d7c0d8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{c5207c34-90f9-434d-868f-0d450f13be24}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{c55672b4-2478-465b-a3de-185191be8d3c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Parts\MainWnd">
+      <UniqueIdentifier>{88f957ee-67a8-4b98-9598-aafefca6500b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\FirstStyleSheet">
+      <UniqueIdentifier>{bc37cd04-648a-462c-8d63-5b68bb662878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\WindowShape">
+      <UniqueIdentifier>{c3463c32-9f44-40e1-91a9-2c049b23ad5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\StyleWidgets">
+      <UniqueIdentifier>{b18e9e86-487f-44e7-93ff-35e0d378a6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\ButtonStyle">
+      <UniqueIdentifier>{d966199e-e00a-4af5-9475-a6698ec1c235}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug\qrc_AppStyle.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\qrc_AppStyle.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Testor.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Parts\MainWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FirstStyleSheet.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstStyleSheet.cpp">
+      <Filter>Parts\FirstStyleSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FirstStyleSheet.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WindowShape.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WindowShape.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowShape.cpp">
+      <Filter>Parts\WindowShape</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_StyleWidgets.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_StyleWidgets.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="StyleWidgets.cpp">
+      <Filter>Parts\StyleWidgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ButtonStyle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ButtonStyle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonStyle.cpp">
+      <Filter>Parts\ButtonStyle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="AppStyle.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\window.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWnd.h">
+      <Filter>Parts\MainWnd</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FirstStyleSheet.h">
+      <Filter>Parts\FirstStyleSheet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WindowShape.h">
+      <Filter>Parts\WindowShape</Filter>
+    </CustomBuild>
+    <CustomBuild Include="StyleWidgets.h">
+      <Filter>Parts\StyleWidgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ButtonStyle.h">
+      <Filter>Parts\ButtonStyle</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AppStyle.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Testor.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

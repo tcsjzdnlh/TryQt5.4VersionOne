@@ -1,0 +1,30 @@
+/* -----------------  ----------------- */
+
+/* ----------------- width/height  ----------------- */
+/*
+QCheckBox::indicator
+{
+	width: 100px;
+	height: 100px;
+}
+*/
+
+/* ----------------- spacing ----------------- */
+/*
+QLineEdit
+{
+	spacing: 100px;
+}
+*/
+
+/* ----------------- padding ----------------- */
+/*
+QLineEdit
+{
+	padding: 0px 20px 0px 0px;
+}
+*/
+QLineEdit
+{
+	padding-left: 50px;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QListView" name="m_pPenMetricsList">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>121</width>
+     <height>331</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="m_pPenMetricsStack">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>391</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="m_pPenColorPage"/>
+   <widget class="QWidget" name="m_pPenTypePage"/>
+   <widget class="QWidget" name="m_pPenWidthType"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

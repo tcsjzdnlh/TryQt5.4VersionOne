@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{00904d51-352c-42c3-86ad-a317eab55d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{f2f58780-c7b1-4d77-ab43-bc2902e53d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{c7745940-9a7c-4cd7-92bc-bce5e9efdadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{7155d760-a286-4a74-94bd-20153e6f4a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\ListWidget">
+      <UniqueIdentifier>{0dbab884-ee8b-4c5e-9917-66459b62832a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{8fedbca6-c71d-4d3a-886a-2ca8609e2c9a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{4fac05d5-793a-40a5-952b-e03ae2cbbe5a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Test\TableWidget">
+      <UniqueIdentifier>{800dda29-8d40-46be-9cc7-64d68c7713ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\TreeWidget">
+      <UniqueIdentifier>{3cf34663-88e6-4dd6-8b5e-bf54ace377d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Models">
+      <UniqueIdentifier>{76518b2a-7350-4ff0-bc0f-b8ac64ec66a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Models\ModelStringList">
+      <UniqueIdentifier>{c78606fd-97fc-4c62-b011-504e8b1284f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Models\DirModel">
+      <UniqueIdentifier>{5d9651ae-7acd-4777-a156-49d853bb8fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\SortFilterProxyModel">
+      <UniqueIdentifier>{36415be8-2b58-4746-a398-28a4b57498bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Models\UserTableModel">
+      <UniqueIdentifier>{5abf0b1d-8123-448c-9dbc-2eff31087e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Models\TrackEditor">
+      <UniqueIdentifier>{cbf2a3e9-fc2c-4db5-81cc-c1401474df73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug\qrc_ModelView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\qrc_ModelView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FlowChartSymbolPicker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FlowChartSymbolPicker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowChartSymbolPicker.cpp">
+      <Filter>Test\ListWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Testor.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CoordinateEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CoordinateEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinateEditor.cpp">
+      <Filter>Test\TableWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DirTree.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="DirTree.cpp">
+      <Filter>Test\TreeWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DirTree.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ModelString.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelString.cpp">
+      <Filter>Test\Models\ModelStringList</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ModelString.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DirModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DirModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DirModel.cpp">
+      <Filter>Test\Models\DirModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SortFilterProxyModelDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SortFilterProxyModelDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SortFilterProxyModelDlg.cpp">
+      <Filter>Test\SortFilterProxyModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ParitiesModel.cpp">
+      <Filter>Test\Models\UserTableModel</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackInfo.cpp">
+      <Filter>Test\Models\TrackEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TrackEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackEditor.cpp">
+      <Filter>Test\Models\TrackEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TrackEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TrackItemDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TrackItemDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackItemDelegate.cpp">
+      <Filter>Test\Models\TrackEditor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ModelView.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images\window.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FlowChartSymbolPicker.h">
+      <Filter>Test\ListWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWnd.h">
+      <Filter>Parts</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CoordinateEditor.h">
+      <Filter>Test\TableWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DirTree.h">
+      <Filter>Test\TreeWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ModelString.h">
+      <Filter>Test\Models\ModelStringList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DirModel.h">
+      <Filter>Test\Models\DirModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SortFilterProxyModelDlg.h">
+      <Filter>Test\SortFilterProxyModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TrackEditor.h">
+      <Filter>Test\Models\TrackEditor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TrackItemDelegate.h">
+      <Filter>Test\Models\TrackEditor</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Testor.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="ParitiesModel.h">
+      <Filter>Test\Models\UserTableModel</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackInfo.h">
+      <Filter>Test\Models\TrackEditor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ModelView.rc" />
+  </ItemGroup>
+</Project>
